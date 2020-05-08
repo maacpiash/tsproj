@@ -1,0 +1,7 @@
+{
+  "ignore": [".git", "node_modules/**/node_modules", "dist"],
+  "verbose": true,
+  "watch": ["src/"],
+  "exec": "node --inspect=5050 -r ts-node/register ./src/index.ts",
+  "ext": "ts,json"
+}
